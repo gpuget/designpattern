@@ -54,3 +54,32 @@ Name | Description
 ### <a name="proxy">Proxy</a>
 
 ## <a name="behavioral">Behavioral Patterns</a>
+
+In software engineering, behavioral design patterns are design patterns that identify **common communication** patterns
+ among objects. By doing so, these patterns increase flexibility in carrying out communication.
+
+Name | Description
+--- | ---
+[Chain of responsibility](#cor) | Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+[Command](#command) | Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations.
+[Interpreter](#interpreter) | Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+[Iterator](#iterator) | Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+[Mediator](#mediator) | Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.
+[Memento](#memento) | Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.
+[Observer](#observer) | Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
+[State](#state) | Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+[Strategy](#strategy) | Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+[Template method](#templatemethod)	| Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+[Visitor](#visitor) | Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.
+
+### <a name="cor">Chain of responsibility</a>
+### <a name="command">Command</a>
+### <a name="interpreter">Interpreter</a>
+### <a name="iterator">Iterator</a>
+### <a name="mediator">Mediator</a>
+### <a name="memento">Memento</a>
+### <a name="observer">Observer</a>
+### <a name="state">State</a>
+### <a name="strategy">Strategy</a>
+### <a name="templatemethod">Template method</a>
+### <a name="visitor">Visitor</a>
