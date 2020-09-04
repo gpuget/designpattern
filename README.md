@@ -19,9 +19,38 @@ In software engineering, creational design patterns are design patterns that dea
 Name | Description
 ---|---
 [Abstract Factory](#abstractfactory) | Provide an interface for creating families of related or dependent objects without specifying their concrete classes. 
+[Builder](#builder) | Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.
+[Factory Method](#factorymethod) | Define an interface for creating a single object, but let subclasses decide which class to instantiate.
+[Prototype](#prototype) | Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.
+[Singleton](#singleton) | Ensure a class has only one instance, and provide a global point of access to it.
  
- ### <a name="abstractfactory">Abstract Factory</a>
+### <a name="abstractfactory">Abstract Factory</a>
+### <a name="builder">Builder</a>
+### <a name="factorymethod">Factory Method</a>
+### <a name="prototype">Prototype</a>
+### <a name="singleton">Singleton</a>
 
 ## <a name="structural">Structural Patterns</a>
+
+In software engineering, structural design patterns are design patterns that ease the design by identifying a simple
+ way to realize **relationships among entities**.
+
+Name | Description
+---|---
+[Adapter](#adapter) | Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. 
+[Bridge](#bridge) | Decouple an abstraction from its implementation allowing the two to vary independently.
+[Composite](#composite) | Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+[Decorator](#decorator) | Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.
+[Facade](#facade) | Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+[Flyweight](#flyweight) | Use sharing to support large numbers of similar objects efficiently.
+[Proxy](#proxy) | Provide a surrogate or placeholder for another object to control access to it.
+
+### <a name="adapter">Adapter</a>
+### <a name="bridge">Bridge</a>
+### <a name="composite">Composite</a>
+### <a name="decorator">Decorator</a>
+### <a name="facade">Facade</a>
+### <a name="flyweight">Flyweight</a>
+### <a name="proxy">Proxy</a>
 
 ## <a name="behavioral">Behavioral Patterns</a>
