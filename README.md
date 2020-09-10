@@ -83,3 +83,15 @@ Name | Description
 ### <a name="strategy">Strategy</a>
 ### <a name="templatemethod">Template method</a>
 ### <a name="visitor">Visitor</a>
+
+## References
+
+* [Java Design Pattern](https://java-design-patterns.com)
+* [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+* [Refactory Guru](https://refactoring.guru/design-patterns/)
+* [Source Making](https://sourcemaking.com/design_patterns)
+
+### Also see
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/iluwatar/java-design-patterns?label=Java%20Design%20Pattern&style=social)](https://github.com/iluwatar/java-design-patterns)
+
